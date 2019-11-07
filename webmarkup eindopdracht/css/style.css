@@ -1,0 +1,159 @@
+@media screen and (min-width: 500px)
+{
+
+#pic1
+{
+	padding: 5px;
+	width: 300px;	
+}
+
+#footermaincontent
+{
+	color: white;
+}
+
+#section1
+{
+	margin-left: -10px;
+	margin-bottom: -16px;
+	position: relative;
+	top: ; 
+	width: 101.4%;
+	height: 375px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;	
+}
+
+#videocontainer
+{
+	position: absolute;
+	top: -550px;
+	left: 0;
+	width: 100%;		
+}
+
+body
+{
+	max-width: ;
+	background-color: FFFFFF;
+	float: left;
+	margin-top: -15px;
+}
+
+h1
+{
+	font-size: 40px;
+	margin-top: 100px;
+	padding: 20px;
+	font-family: arial, roboto, Times;
+	text-align: center;
+	z-index: 1;
+	opacity: 0.9;
+	background-color: white;
+	color: 2699FB;
+}
+
+h2
+{
+	color: white;	
+	padding: 0px;
+}
+
+h5
+{
+	color: white;	
+}
+
+p
+{
+	color: white;
+}
+
+section
+{
+	Margin: 15px;
+	border: 10px;	
+}
+
+article 
+{
+	background-color: 2699FB;
+	color: 000000;
+	padding: 20px;	
+	float: left;
+	width: 65%;
+	font-family: arial, roboto, Times;
+	clear: both;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+
+aside
+{
+	background-color: 2699FB;
+	padding: 20px;
+	float: right;
+	width: 25%;	
+	font-family: arial, roboto, Times;
+	clear: none;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+footer
+{
+	font-size: 14px;
+	font-family: arial, roboto, Times;
+	text-align: center;
+	padding-top: 20px;
+	display: table;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+nav 
+{
+	display:;
+	color: FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: arial, roboto, Times;
+
+}
+
+ul 
+{
+	list-style-type: none;
+	margin: -8px;
+	padding: 0;
+	overflow: hidden;
+	background-color: 444444; 
+	text-align: center;
+	color: black;
+}
+
+li
+{
+	padding-left: 20px;
+	float: left;		
+}
+
+li a
+{
+	display: block;
+	color: 2699FB;
+	text-align: center;
+	padding: 13px 20px;
+	text-decoration: none;
+}
+
+li a:hover		
+{
+	background-color: white;		
+}
+}
