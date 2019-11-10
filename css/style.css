@@ -49,7 +49,7 @@
 	#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10 {
 		background-color: #AAAAAA;
 		border: none;
-		color: #2699FB;
+		color: #FFFFFF;
 		padding: 5px 10px;
 		text-align: center;
 		display: inline-block;
@@ -231,5 +231,32 @@
 	fieldset{
 		padding: 10px;
 		height: auto;
+	}
+
+	.cookiebanner #cookieToggle{
+		display: none;
+	}
+
+	.cookiebanner #cookieToggle:checked ~ #cookie{
+		display: none;
+	}
+
+	.cookiebanner #cookie{
+		width: 100%;
+		padding: 15px;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		z-index: 1;
+		background-color: #707070;
+		color: #F5F5F5;
+		text-align: center;
+	}
+
+	.cookiebanner #cookie{
+		margin-left: 15px;
+		text-decoration: underline;
+		color: #AAAAAA;
+		cursor: pointer;
 	}
 }
